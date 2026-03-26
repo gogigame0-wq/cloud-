@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Моят облак</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="app.js" defer></script>
+</head>
+<body>
+<div class="container">
+  <h1>Добре дошъл в Моят Облак</h1>
+  <div id="auth-container">
+    <input type="email" id="email" placeholder="Имейл">
+    <input type="password" id="password" placeholder="Парола">
+    <button id="login-btn">Вход</button>
+    <button id="signup-btn">Регистрация</button>
+    <p id="auth-msg"></p>
+  </div>
+  <div id="user-container" style="display:none;">
+    <h2 id="welcome-msg"></h2>
+    <input type="file" id="file-input">
+    <button id="upload-btn">Качи файл</button>
+    <h3>Моите файлове:</h3>
+    <ul id="file-list"></ul>
+    <button id="logout-btn">Изход</button>
+  </div>
+</div>
+</body>
+</html>
