@@ -1,0 +1,52 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(0,0,0,0.6);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+}
+
+input[type="email"], input[type="password"], input[type="file"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #FF8C00;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #FFA500;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
